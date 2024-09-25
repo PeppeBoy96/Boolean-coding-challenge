@@ -1,0 +1,88 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#container{
+    width: 1000px;
+    height: 700px;
+    margin: 20px auto;
+    background-color: rgba(2, 2, 2, 0.44);
+    border-radius: 1%;
+}
+
+img{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+header>h2{
+    font-size: 30px;
+    font-style: normal;
+    margin: auto;
+    color: orange;
+    padding-bottom: 5px;
+}
+
+nav{
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#corpo{
+    width: 900px;
+    margin: auto
+}
+
+input.scelta{
+    margin-top: 3%;
+}
+
+.dati{
+    margin: 0;
+    padding-top: 5px;
+}
+
+.carica{
+    margin: 0;
+    padding-top: 3px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p.dati::before{
+    content: "\2192";
+}
+
+#gino{
+    width: 400px;
+    border: 12px solid yellow;
+    border-radius: 5px;
+    margin: 3px;;
+}
+
+#pippo{
+    width: 600px;
+    border: 12px solid fuchsia;
+    border-radius: 5px;
+    margin: 3px;;
+}
+
+#pluto{
+    width: 250px;
+    border: 12px solid green;
+    border-radius: 5px;
+    margin: 3px;;
+}
